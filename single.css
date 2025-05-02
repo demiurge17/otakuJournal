@@ -1,0 +1,174 @@
+html{
+    background-color: #1d1b1b;
+    
+    font-family: Inter, 'sans serif';
+}
+
+
+.navbar
+{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5C728A;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #f0f8ff;
+    text-transform: uppercase;
+    
+}
+
+.navbar ul li::after{
+content: ''; 
+height: 3px;
+width: 0%;
+background: #d2c1c1;
+position: absolute;
+left: 0;
+bottom: -10px;
+transition: 0.5s;
+}
+
+
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+
+.logo
+{
+    
+    width: 120px;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 60%;
+    height: 50vh;
+    margin: 125px 225px;
+    
+    align-items: center;
+    
+    
+ }
+
+.single{
+    
+    width: 270px;
+    height: 150px;
+    border-radius: 10px;
+    
+    border: solid #fff;
+    margin-right: 15px;
+    float: left;
+
+
+}
+
+.text{
+    
+    
+    color: #fff;
+    align-items: justify;
+    width: 75vw;
+
+    
+}
+
+h2{
+    margin-top: 0%;
+    margin-bottom: 5px;
+    color: #fff;
+
+    
+}
+ 
+p{
+      white-space: 5px;
+}
+
+footer{
+    position: absolute;
+    
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: peachpuff;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
